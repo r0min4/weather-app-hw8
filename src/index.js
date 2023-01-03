@@ -26,7 +26,6 @@ function convertDate(dt){
 }
 
 function showForecast(response){
-    console.log(response.data);
     let daily = response.data.daily;
     let forecast = document.querySelector("#forecast");
     let forecastString = `<div class="row">`
